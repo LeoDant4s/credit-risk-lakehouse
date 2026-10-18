@@ -1,0 +1,50 @@
+# ---------- Dados (nunca vão para o Git) ----------
+*.csv
+*.parquet
+*.json.gz
+*.zip
+*.xlsx
+data/*
+!data/.gitkeep
+
+# ---------- Credenciais e segredos ----------
+.env
+.env.*
+*.pem
+*.key
+*.token
+secrets/
+.databrickscfg
+
+# ---------- Estado local do Databricks CLI / bundle ----------
+.databricks/
+.bundle/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# ---------- Editores e sistema ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---------- Logs ----------
+*.log
+logs/
+
+# ---------- Onda 2 (dbt): descomente quando chegar a semana 16 ----------
+# target/
+# dbt_packages/
+# profiles.yml
+
+# ---------- Onda 3 (Airflow local): descomente quando chegar a semana 20 ----------
+# airflow.cfg
+# airflow.db
+# airflow-webserver.pid
