@@ -1,4 +1,4 @@
-## Decision Log #3 — Bronze ingestion: Auto Loader vs COPY INTO
+## Bronze ingestion: Auto Loader vs COPY INTO
 
 **Date:** 2026-11-14
 **Status:** Accepted
